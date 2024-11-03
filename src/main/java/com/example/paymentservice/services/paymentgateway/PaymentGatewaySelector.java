@@ -14,6 +14,6 @@ public class PaymentGatewaySelector {
     }
 
     public PaymentGateway get(){
-        return null;
+        return stripeGateway;
     }
 }
